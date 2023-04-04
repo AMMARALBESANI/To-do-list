@@ -10,7 +10,7 @@ if (n == ""){
 }else{
     let age = prompt("please"+" "+n+" "+"enter your age")
     if (age <=0){
-        alert("please enter valid age")
+        prompt("please enter valid age")
     }else {
         let g = prompt("please"+" " +n+" "+"enter your gender")
          if(g==="male"){

@@ -1,6 +1,8 @@
 'use strict';
 
 
+
+
 let n = prompt("please enter your name")
 if (n == ""){
     prompt("please add yor name ")
@@ -28,7 +30,8 @@ if (n == ""){
         }
        } 
        
-    }    
+    }
+ 
 
-    
-    
+
+

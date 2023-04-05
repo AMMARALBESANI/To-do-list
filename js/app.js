@@ -34,22 +34,7 @@ let g = prompt("please"+" " +n+" "+"enter your gender")
         }
        } 
 
-  let question =[prompt("Are you student"),prompt("Would you rate us"),prompt("Is our app useful")];
-  let answer =[];
-  function traverse (){
-     for(let i =0; i<question.length;i++){
-         if (question[i]=="yes"){
-        answer.push(question[i])
-         }else if(question[i]=="no") {
-        answer.push(question[i])
-         }else{
-            answer.push("invalid")
-         }
-  }
-  console.log(answer)
-}
- traverse();
-
+ 
  
    
      

@@ -1,8 +1,6 @@
 'use strict';
 
 
-
-
 let n = prompt("please enter your name")
 if (n == ""){
     prompt("please add yor name ")
@@ -11,6 +9,8 @@ if (n == ""){
     let age = prompt("please"+" "+n+" "+"enter your age")
     if (age <=0){
         prompt("please enter valid age")
+    }
+
         let g = prompt("please"+" " +n+" "+"enter your gender")
         if(g==="male"){
           let mc = confirm("do you want to skip welcome")
@@ -28,9 +28,7 @@ if (n == ""){
         }
        } 
        
-    }
-    
+    }    
 
     
     
-}
